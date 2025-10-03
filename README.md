@@ -5,7 +5,7 @@
   
   **Built by [KodeusAI](https://github.com/KodeusAI) - The Open Agentic Operating System**
   
-  *Empowering Web3 agents with seamless DeFi integration*
+  *Built for Real Work, On-chain*
 </div>
 
 ---

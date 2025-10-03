@@ -1,0 +1,72 @@
+{
+  "name": "kuru-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Kuru exchange operations - Built by Kodeus.ai",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "kuru-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "postbuild": "tsc-esm-fix build",
+    "start": "node build/index.js",
+    "dev": "tsc --watch",
+    "format": "npx prettier --write .",
+    "test": "jest"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "package.json"
+  ],
+  "keywords": [
+    "kuru",
+    "exchange",
+    "defi",
+    "mcp",
+    "blockchain",
+    "ethereum",
+    "web3",
+    "kodeus",
+    "ai-agents",
+    "claude-desktop",
+    "monad",
+    "trading-bot"
+  ],
+  "author": {
+    "name": "KodeusAI",
+    "url": "https://github.com/KodeusAI",
+    "email": "vamsi@kodeus.ai"
+  },
+  "homepage": "https://github.com/KodeusAI/kuru-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KodeusAI/kuru-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KodeusAI/kuru-mcp-server/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^22.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.35.1",
+    "@typescript-eslint/parser": "^8.35.1",
+    "eslint": "^9.30.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.0",
+    "tsc-esm-fix": "^3.1.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@kuru-labs/kuru-sdk": "^0.0.61",
+    "@modelcontextprotocol/sdk": "^1.4.0",
+    "ethers": "^5.7.2",
+    "zod": "^3.23.8"
+  }
+}

@@ -1,0 +1,38 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kodeus Logo - Stylized K with o and DEUS -->
+  <defs>
+    <style>
+      .kodeus-text { 
+        font-family: 'Arial', sans-serif; 
+        font-weight: bold; 
+        font-size: 24px; 
+        fill: #000000; 
+      }
+      .kodeus-k { 
+        font-family: 'Arial', sans-serif; 
+        font-weight: bold; 
+        font-size: 24px; 
+        fill: #000000; 
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="60" fill="#FFFFFF"/>
+  
+  <!-- Stylized K -->
+  <g transform="translate(10, 10)">
+    <!-- K strokes -->
+    <path d="M0 0 L8 0 L8 8 L12 4 L16 8 L20 4 L16 0 L12 4 L8 0" fill="#000000"/>
+    <path d="M0 8 L8 8 L8 16 L12 12 L16 16 L20 12 L16 8 L12 12 L8 8" fill="#000000"/>
+    
+    <!-- o circle -->
+    <circle cx="22" cy="8" r="4" fill="#000000"/>
+    
+    <!-- DEUS text -->
+    <text x="32" y="16" class="kodeus-text">DEUS</text>
+  </g>
+  
+  <!-- Kodeus.ai text -->
+  <text x="10" y="45" class="kodeus-text" font-size="12">Kodeus.ai</text>
+</svg>
